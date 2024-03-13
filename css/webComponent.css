@@ -36,3 +36,28 @@ h3{
 .card p{
     text-align: center;
 }
+#btnTerminar{
+    background-color: rgb(6, 124, 124);
+    padding: 25px 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#btnTerminar:hover{
+    scale: 1.1;
+}
+#btnenviar{
+    background-color: rgb(6, 124, 124);
+    padding: 25px 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+input{
+
+        background-color: rgb(6, 124, 124);
+        padding: 25px 50px;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: 300;
+}

@@ -125,7 +125,7 @@ export class pagina2 extends HTMLElement{
                 this.suma +=200000;
                 break
             case this.array4[3]:
-                this.suma +=3500000;
+                this.suma +=350000;
                 break       
             case this.array5[0]:
                 this.suma +=200000;
@@ -145,7 +145,19 @@ export class pagina2 extends HTMLElement{
     }
     paginaFinal(){
         let cont = this.querySelector('.contenedor');
-        cont.innerHTML = `<h3>El costo estimado de tu app es</h3><br><h1>${this.suma}</h1><br><br><button id="btnTerminar">Empezar</button>`
+        cont.innerHTML = `<h3>El costo estimado de tu app es</h3><br><h1>${this.suma}</h1><br><br><button id="btnTerminar">Terminar</button>`;
+        this.formulario();
+    }
+    formulario(){
+        let btnFormulario = this.querySelector('#btnTerminar');
+        btnFormulario.addEventListener('click',()=>{
+            let cont = this.querySelector('.contenedor');
+            cont.innerHTML = `<input id="nombreCliente" type="text" placeholder="Nombre completo"><br><br><br>
+            <input id="numeroCliente" type="text" placeholder="Numero de contacto"><br><br><br>
+            <input id="numeroCliente" type="email" placeholder="Correo Electronico"><br><br><br>
+            <h1>Total: ${this.suma}</h1>
+            <button id="btnenviar">Enviar</button>`;
+        })
     }
 
 }
