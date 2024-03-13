@@ -1,0 +1,11 @@
+<section class="titulo">
+            <div class="imagen">
+                <img src="storage/image/answer-1-1.png" alt="">
+            </div>
+            <h1>Cuanto cuesta desarrollar mi app GBP?</h1>
+        </section>
+        <section class="informacion">
+            <p>Calcula de forma rapida el costo de crear tu app, contestanto estas sencillas preguntas</p>
+            <button id="btnEmpezar">Empezar</button>
+        </section>
+            display: grid;

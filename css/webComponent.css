@@ -1,0 +1,38 @@
+*{
+    width: 100%;
+}
+
+h1{
+    font-size: 2.7rem;
+}
+h2{
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.contenedor{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.titulo{
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    place-content: center;
+    place-items: center;
+    gap: 100px;
+    text-align: center;
+}
+.card img{
+    width: 250px;
+}
+.card img:hover{
+    scale: 1.1;
+}
+.card p{
+    text-align: center;
+}
